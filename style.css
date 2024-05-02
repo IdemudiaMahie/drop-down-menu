@@ -1,0 +1,99 @@
+
+
+/* .menu {
+    display: none;
+} */
+
+/* .button:hover {
+
+} */
+
+/* .block {
+    display: block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* article {
+    position: relative;
+    display: inline-block;
+} */
+
+article:hover {
+    transition: all 5s 1.4s;
+}
+
+article:hover button {
+    background-color: purple;
+    transition: all 2s .4s;
+}
+
+article:hover .menu {
+    display: block;
+}
+
+article:hover .menu ul {
+    list-style-type: none;
+}
+
+/* article:hover .menu li:last-child {
+    transform: translateY(10rem);
+    transition: all 9s 3s;
+} */
+
+button {
+    background-color: mediumspringgreen;
+    color: midnightblue;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+} 
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: slateblue;
+    min-width: 150px;
+}
+
+.menu a {
+    color: #333;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    /* display: block; */
+}
+
+.menu a:hover {
+    background-color: red;
+}
+
+
+.menu:hover li:first-child {
+    transform: translateY(2.5rem);
+    transition: all 1s .4s;
+}
+
+.menu:hover li:nth-child(2) {
+    transform: translateY(5rem);
+    transition: all 1s .4s;
+}
+
+.menu:hover li:nth-child(3) {
+    transform: translateY(7.5rem);
+    transition: all 1s .4s;
+}
+
+.menu:hover li:last-child {
+    transform: translateY(10rem);
+    transition: all 1s .4s;
+}
