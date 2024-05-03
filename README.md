@@ -1,13 +1,5 @@
 
 
-NG
-
-Skip navigation
-Search
-
-
-
-
 -   Helped me understand how to actually build a drop-down-menu.
 
 
